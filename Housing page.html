@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="logo.png">
-    <link rel="stylesheet" href="static/Housing page.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="Housing page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,16 +18,19 @@
 
 <body>
     <header>
-        <nav class="main-nav">
-            <a href="Home page.html" class="logo">
-                <img src="img/logo.png" alt="Logo">
-            </a>
-            <ul>
-                <li><a href="Housing page.html">Housing</a></li>
-                <li><a href="Transportation.html">Transportation</a></li>
-                <li><a href="Financing.html">Financing</a></li>
-                <li><a href="Local Events.html">Local Events</a></li>
-                <li><a href="About Us.html">About Us</a></li>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='index.html'><img src='img/logo.png' /></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="Housing page.html">Housing</a></li>
+                    <li><a href="Transportation.html">Transportation</a></li>
+                    <li><a href="Financing.html">Financing</a></li>
+                    <li><a href="Local Events.html">Local Events</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
             </ul>
         </nav>
     </header>
@@ -34,6 +40,7 @@
             <div class="hero-content">
                 <h1>Find Your Home In Eindhoven</h1>
                 <p>Your Guide To Safe, Affordable Housing In The Netherlands...</p>
+               <a href="https://www.example.com" class="btn">Finding Rooms</a>
             </div>
         </div>
     </section>
@@ -43,7 +50,7 @@
         <div class="cards-container">
             <div class="card">
                 <div class="card-logo">
-                    <img src="Kamernet.png" alt="Kamernet Logo">
+                    <img src="img/Kamernet.png" alt="Kamernet Logo">
                 </div>
                 <div class="card-text">
                     <p>Listings For Rooms, Studios, And Apartments. Search Filters By Price, Location, And Type Of
@@ -53,7 +60,7 @@
 
             <div class="card">
                 <div class="card-logo">
-                    <img src="Housing anywhere.png" alt="HousingAnywhere Logo">
+                    <img src="img/Housing anywhere.png" alt="HousingAnywhere Logo">
                 </div>
                 <div class="card-text">
                     <p>Secure Rental Payments And Protection. Verified Listings To Avoid Scams.<br>Direct Communication
@@ -62,7 +69,7 @@
             </div>
             <div class="card">
                 <div class="card-logo">
-                    <img src="pararius.png" alt="Pararius Logo">
+                    <img src="img/pararius.png" alt="Pararius Logo">
                 </div>
                 <div class="card-text">
                     <p>Extensive Listings For Furnished And Unfurnished Apartments. Multiple Property Filters For Easy
@@ -74,26 +81,26 @@
 
     <section class="university-rooms-section">
         <div class="section-header">
-            <img src="school.png" alt="University Icon" class="header-icon">
+            <img src="img/school.png" alt="University Icon" class="header-icon">
             <h1>UNIVERSITY ROOMS</h1>
             <h2>OPTIONS</h2>
         </div>
         <div class="image-all">
             <div class="image-grid0">
-                <img src="Student housing1.webp" alt="Campus View">
+                <img src="img/Student housing1.webp" alt="Campus View">
             </div>
 
             <div class="image-grid">
-                <img src="Room2.avif" alt="Room Interior 1">
-                <img src="room3.jpg" alt="Room Interior 2">
+                <img src="img/Room2.avif" alt="Room Interior 1">
+                <img src="img/room3.jpg" alt="Room Interior 2">
             </div>
         </div>
         <div class="icon-row">
-            <img src="bed.png" alt="Transportation Icon">
-            <img src="wi-fi-icon.png" alt="Wi-Fi Icon">
-            <img src="public-toilet.png" alt="Laundry Icon">
-            <img src="cyber-security.png" alt="security">
-            <img src="home.png" alt="Housing Icon">
+            <img src="img/bed.png" alt="Transportation Icon">
+            <img src="img/wi-fi-icon.png" alt="Wi-Fi Icon">
+            <img src="img/public-toilet.png" alt="Laundry Icon">
+            <img src="img/cyber-security.png" alt="security">
+            <img src="img/home.png" alt="Housing Icon">
         </div>
 
         <div class="things-to-keep-in-mind">
@@ -131,7 +138,7 @@
         </div>
         <div class="footer-bottom">
             <ul class="footer-links">
-                <li><a href="Home page.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="Housing page.html">Housing</a></li>
                 <li><a href="Transportation.html">Transportation</a></li>
                 <li><a href="Financing.html">Financing</a></li>
@@ -139,9 +146,9 @@
                 <li><a href="About Us.html">About Us</a></li>
             </ul>
             <div class="footer-social">
-                <a href="#"><img src="facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
             </div>
         </div>
     </footer>
