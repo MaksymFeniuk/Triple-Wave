@@ -1,57 +1,114 @@
-.nav-bar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  position: relative;
-  background-color: rgba(21, 91, 134, 0.75);
-  padding: 12px 20px;
-  animation-name: header;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-  animation-delay: 500ms;
-  z-index: 10;
+.financing-bank-account-section {
+  background-color: #002B4F;
+    padding: 3rem 0;
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.logo img {
-  width: 40px;
+.financing-bank-account-section h1 {
+  font-size: 2rem;
+    color: #AFD7E0;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
 }
 
-.menu {
-  display: flex;
-}
-
-.menu li {
-  padding-left: 30px;
-}
-
-.menu li a {
-  display: inline-block;
-  text-decoration: none;
+.financing-paragraph {
+  font-size: 1.2rem;
   color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  margin-left: 10px;
   text-align: center;
-  transition: 0.15s ease-in-out;
-  position: relative;
-  text-transform: capitalize;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 1.2rem;
+  color: #ffffff;
+  
+}
+
+li {
+  color: white;
+}
+
+
+
+.financing-useful-links {
+  background-color: #AFD7E0;
+  color: #002B4F;
+  float: left;
+  padding: 0.8rem 1rem;
   font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
 }
 
-.menu li a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 1px;
-  background-color: var(--color1);
-  transition: 0.15s ease-in-out;
+.financing-page-tips {
+  
+  line-height: 30px;
+  margin-right: 350px;
+  margin-left: 430px;
+  font-size: 1.2rem;
 }
 
-.menu li a:hover {
-  color: var(--color1);
+ul {
+  list-style-type: none;
+  text-align: left;
 }
 
-.menu li a:hover:after {
-  width: 100%;
+.financing-document1, .financing-document2, .financing-document3 {
+  list-style-type: circle;
+  margin-left: 15px;
+}
+
+
+
+
+
+.finance-useful-links-container {
+  margin-left: 31%;
+  
+  background-color: #89abc1; /* Slightly lighter blue */
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px;
+  margin-top: 100px;
+}
+
+.title {
+  background-color: #B4D9E3; /* Light blue background */
+  color: #07293D; /* Darker text color */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Link item styling */
+.link-item {
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.link-item img {
+  width: 50px; /* Logo size */
+  height: auto;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.link {
+  color: #0A2846; /* Link color (blue) */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
