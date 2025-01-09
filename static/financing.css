@@ -69,7 +69,7 @@ ul {
 .finance-useful-links-container {
   margin-left: 31%;
   
-  background-color: #89abc1;
+  background-color: #89abc1; /* Slightly lighter blue */
   padding: 20px;
   border-radius: 8px;
   width: 600px;
@@ -77,102 +77,38 @@ ul {
 }
 
 .finance-title {
-  background-color: #B4D9E3;
-  color: #07293D; 
+  background-color: #B4D9E3; /* Light blue background */
+  color: #07293D; /* Darker text color */
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 20px;
   text-align: left;
 }
 
-
+/* Link item styling */
 .link-item {
   display: flex;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #FFFFFF; /* White background */
   border-radius: 8px;
   padding: 10px;
   margin-bottom: 15px;
 }
 
 .link-item img {
-  width: 50px; 
+  width: 50px; /* Logo size */
   height: auto;
   margin-right: 15px;
   border-radius: 4px;
 }
 
 .link {
-  color: #0A2846; 
+  color: #0A2846; /* Link color (blue) */
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
 }
 
 .link:hover {
-  text-decoration: underline;
-}
-
-
-
-
-
-
-
-
-.finance-mijnduo-container {
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.finance-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  border-bottom: 2px solid #003b6f;
-  padding-bottom: 10px;
-}
-
-.logo {
-  width: 50px;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 1.2em;
-  margin: 0;
-}
-
-.finance-student-header {
-  background-color: #003b6f;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.finance-mijnduo-content p {
-  margin: 10px 0;
-}
-
-.finance-mijnduo-content h2 {
-  color: #003b6f;
-  margin-top: 20px;
-}
-
-.student-finance-list, ul {
-  margin-left: 20px;
-}
-
-a {
-  color: #003b6f;
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: underline;
 }
