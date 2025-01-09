@@ -203,7 +203,7 @@ a:hover {
 h1 {
   text-align: center;
   font-size: 2em;
-  color: #b3d4ff;
+  color: #002B4F;
   margin-bottom: 20px;
 }
 
@@ -248,3 +248,134 @@ a:hover {
   color: white;
   font-size: 1.2rem;
 }
+
+
+
+
+
+
+
+
+.financing-grid-container {
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.financing-h1 {
+  font-size: 2em;
+  color: #b3d4ff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.grid-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background-color: #ffffff;
+  overflow: hidden;
+  border: 1px rgb(255, 255, 255) solid;
+}
+
+.grid-header {
+  background-color: #3a5d86;
+  color: #b3d4ff;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+
+.grid-item {
+  background-color: #183051;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.grid-item:nth-child(even) {
+  background-color: #183051;
+}
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #b3d4ff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #d3eaff;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Card Styles */
+.card {
+  background-color: #2a4568;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #b3d4ff;
+}
+
+.card p {
+  font-size: 1.1em;
+  margin: 10px 0 20px;
+}
+
+.card button {
+  background-color: #b3d4ff;
+  color: #1e3a5f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #d3eaff;
+}
+
+
+
+
+
+
+
+
+
