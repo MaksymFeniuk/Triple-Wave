@@ -112,3 +112,60 @@ ul {
 .link:hover {
   text-decoration: underline;
 }
+
+.finance-mijnduo-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.finance-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #003b6f;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.finance-student-header {
+  background-color: #003b6f;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.finance-mijnduo-content p {
+  margin: 10px 0;
+}
+
+.finance-mijnduo-content h2 {
+  color: #003b6f;
+  margin-top: 20px;
+}
+
+.student-finance-list, ul {
+  margin-left: 20px;
+}
+
+a {
+  color: #003b6f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
