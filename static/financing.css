@@ -307,53 +307,55 @@ a:hover {
 
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 30px auto;
-  padding: 0 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
   font-size: 2.5em;
   color: #b3d4ff;
-  margin-bottom: 10px;
 }
 
 .subtitle {
   font-size: 1.2em;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #d3eaff;
 }
 
-/* Grid Layout */
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+/* Scholarships Section */
+.scholarships {
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
-/* Card Styles */
 .card {
+  flex: 1 1 calc(50% - 20px);
   background-color: #2a4568;
-  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-  width: 60px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 15px;
 }
 
 .card h2 {
   font-size: 1.5em;
-  margin: 10px 0;
+  margin-bottom: 10px;
   color: #b3d4ff;
 }
 
 .card p {
   font-size: 1.1em;
-  margin: 10px 0 20px;
+  margin-bottom: 20px;
 }
 
 .card button {
@@ -361,15 +363,24 @@ h1 {
   color: #1e3a5f;
   border: none;
   padding: 10px 20px;
+  font-size: 1em;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1em;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
 .card button:hover {
   background-color: #d3eaff;
 }
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
+
+
 
 
 
