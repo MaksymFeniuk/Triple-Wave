@@ -1,0 +1,50 @@
+.aboutus-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #b3d4ff;
+  margin-bottom: 30px;
+}
+
+
+.aboutus-mission-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.aboutus-card {
+  background-color: #cce7ff;
+  color: #1e3a5f;
+  border-radius: 10px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
