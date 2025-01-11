@@ -1,0 +1,250 @@
+.aboutus-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #b3d4ff;
+  margin-bottom: 30px;
+}
+
+
+.aboutus-mission-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.aboutus-card {
+  background-color: #cce7ff;
+  color: #1e3a5f;
+  border-radius: 10px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutus-team-section {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #b3d4ff;
+  margin-bottom: 30px;
+}
+
+
+.aboutus-team-member {
+  display: flex;
+  align-items: center;
+  background-color: #2d4f73;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.member-info {
+  padding: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.member-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #b3d4ff;
+}
+
+.member-info p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+
+@media (max-width: 768px) {
+  .aboutus-team-member {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutus-team-member img {
+    width: 100%;
+    height: auto;
+  }
+
+  .aboutus-member-info {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+.aboutus-why-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #b3d4ff;
+  margin-bottom: 30px;
+}
+
+
+.aboutus-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.eindhoven-image {
+  text-align: center;
+  flex: 1;
+}
+
+.eindhoven-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #b3d4ff;
+  border-radius: 10px;
+}
+
+.eindhoven-image p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #b3d4ff;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.2em;
+  text-align: left;
+  color: #ffffff;
+  line-height: 1.6em;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  background-color: #29577a;
+  padding: 30px;
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-box a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  margin-top: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}

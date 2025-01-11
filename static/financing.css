@@ -1,8 +1,13 @@
+
+
+
+
+
 .financing-bank-account-section {
   background-color: #002B4F;
     padding: 3rem 0;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2rem;   
 }
 
 .financing-bank-account-section h1 {
@@ -25,11 +30,10 @@ h3 {
   text-align: left;
   margin-top: 1.2rem;
   color: #ffffff;
-  
 }
 
-li {
-  color: white;
+.text-example1, .text-example2, .text-example3 {
+  color: rgb(255, 255, 255);
 }
 
 
@@ -66,9 +70,10 @@ ul {
 
 
 
+
 .finance-useful-links-container {
-  margin-left: 31%;
   
+  margin-left: 31%;
   background-color: #89abc1; 
   padding: 20px;
   border-radius: 8px;
@@ -121,9 +126,8 @@ ul {
 .finance-mijnduo-container {
   max-width: 800px;
   margin: 20px auto;
-  background-color: #ffffff;
+  background-color: rgb(175, 215, 224, 1);
   padding: 20px;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -143,6 +147,10 @@ ul {
   font-weight: bold;
   font-size: 1.2em;
   margin: 0;
+}
+
+.mijnduo-link {
+  color: black;
 }
 
 .finance-student-header {
@@ -174,3 +182,211 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.student-mijnduo-list1, .student-mijnduo-list2, .student-mijnduo-list3, .student-mijnduo-list4 {
+  list-style-type: disc;
+}
+
+
+
+
+
+
+
+
+.budgeting-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #002B4F;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.store-image {
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tips {
+  flex: 1;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #b3d4ff;
+}
+
+ol {
+  list-style: decimal inside;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a {
+  color: #b3d4ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.budget-list1, .budget-list2, .budget-list3 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+.financing-grid-container {
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.financing-h1 {
+  font-size: 2em;
+  color: #b3d4ff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.grid-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background-color: #ffffff;
+  overflow: hidden;
+  border: 1px rgb(255, 255, 255) solid;
+}
+
+.grid-header {
+  background-color: #3a5d86;
+  color: #b3d4ff;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+
+.grid-item {
+  background-color: #183051;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.grid-item:nth-child(even) {
+  background-color: #183051;
+}
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #b3d4ff;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #d3eaff;
+}
+
+/* Scholarships Section */
+.scholarships {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 calc(50% - 20px);
+  background-color: #2a4568;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #b3d4ff;
+}
+
+.card p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: #b3d4ff;
+  color: #1e3a5f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #d3eaff;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
