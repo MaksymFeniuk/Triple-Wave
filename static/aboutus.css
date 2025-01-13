@@ -80,14 +80,17 @@ h1 {
   align-items: center;
   background-color: #2d4f73;
   margin: 20px 0;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  max-width: 100%;
+  
 }
 
-.team-member img {
-  width: 150px;
-  height: 150px;
+
+.team-member-image {
+  max-width: 100%;
+  height: 130px;
+  width: 130px;
   object-fit: cover;
 }
 
@@ -237,6 +240,10 @@ h1 {
 
 .contact-box a:hover {
   text-decoration: underline;
+}
+
+.contactus-text, .email {
+  color: white;
 }
 
 .icons {
