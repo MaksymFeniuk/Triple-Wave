@@ -37,7 +37,78 @@ h3 {
   color: rgb(255, 255, 255);
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 640px;
+  background-image: url("/img/financing.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 1;
+}
 
+
+@keyframes slide-left {
+  from {
+      translate: -550px 0;
+  }
+
+  to {
+      translate: 0 0;
+  }
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  animation-name: slide-left;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+
+.hero-content .btn {
+  background-color: #AFD7E0;
+  color: #002B4F;
+  float: right;
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  width: 50%;
+  margin-top: 35px;
+  z-index: 2;
+  padding-left: 40px;
+  padding-top: 35px;
+}
+
+.hero-images img {
+  width: 165px;
+  height: 380px;
+  object-fit: cover;
+  box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
 
 .financing-useful-links {
   background-color: #AFD7E0;
@@ -400,6 +471,93 @@ h1 {
   }
 }
 
+
+.footer {
+  background-color: #AFD7E0;
+  padding: 1.8rem 1rem;
+  text-align: center;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  color: #002B4F;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.footer-top h1 {
+  text-align: left;
+  font-size: 35px;
+}
+
+.btn-footer {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border: 3px solid #002B4F;
+  color: #002B4F;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 26px;
+}
+
+.btn-footer:hover {
+  transform: translateX(10px);
+  background-color: #002B4F;
+  color: #ffffff;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  margin-left: 1.5rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #6594B0;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-right: 1.6rem;
+}
+
+.footer-social a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.1);
+}s
 
 
 
