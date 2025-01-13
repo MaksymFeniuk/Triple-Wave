@@ -254,9 +254,10 @@ body {
   
   .biking-image {
     position: center;
+    object-fit: cover;
     width: 100%;
-    max-width: 450px;
-    height: auto;
+    max-width: 987px;
+    height: 300px;
     margin-bottom: 20px;
   }
   
