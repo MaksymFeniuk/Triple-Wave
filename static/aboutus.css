@@ -79,12 +79,14 @@ h1 {
   display: flex;
   align-items: center;
   background-color: #2d4f73;
-  margin: 20px 0;
+  margin: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   max-width: 100%;
   
 }
+
+
 
 
 .team-member-image {
@@ -96,7 +98,8 @@ h1 {
 
 .member-info {
   padding: 20px;
-  text-align: left;
+  text-align: center;
+  margin: 0 auto;
   color: #ffffff;
 }
 
@@ -230,6 +233,7 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: white;
 }
 
 .contact-box a {
