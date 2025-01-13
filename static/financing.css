@@ -1,7 +1,5 @@
 
-.footer-text {
-  color: #002B4F;
-}
+
 
 
 .financing-bank-account-section {
@@ -75,7 +73,7 @@ ul {
 .finance-useful-links-container {
   
   margin-left: 31%;
-  background-color: #89abc1; 
+  background-color: #124C7080; 
   padding: 20px;
   border-radius: 8px;
   width: 600px;
@@ -86,9 +84,8 @@ ul {
   background-color: #B4D9E3; 
   color: #07293D; 
   padding: 10px;
-  border-radius: 8px;
   margin-bottom: 20px;
-  text-align: left;
+  margin-right: 389px;
 }
 
 .ing-link-item {
@@ -403,10 +400,8 @@ h1 {
 
 
 
-
-
-
-
-
+.footer-text {
+  color: #002B4F;
+}
 
 
