@@ -1,4 +1,6 @@
-
+.footer-text {
+  color: #002b4f;
+}
 
 
 
@@ -60,27 +62,9 @@ h3 {
   }
 }
 
-.hero-content p {
-  font-size: 16px;
-  margin-bottom: 2rem;
-  color: #ffffff;
-  animation-name: slide-left;
-  animation-duration: 2s;
-  animation-delay: 1.5s;
-  animation-fill-mode: both;
-}
 
-.hero-content .btn {
-  background-color: #AFD7E0;
-  color: #002B4F;
-  float: right;
-  padding: 0.8rem 1rem;
-  font-weight: bold;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
+
+
 
 .hero-content .btn:hover {
   background-color: #003366;
@@ -554,12 +538,4 @@ h1 {
 
 .footer-social a img:hover {
   transform: scale(1.1);
-}s
-
-
-
-.footer-text {
-  color: #002B4F;
 }
-
-
