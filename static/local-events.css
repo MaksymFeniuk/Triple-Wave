@@ -147,205 +147,72 @@ body {
     animation-delay: 1s;
     animation-fill-mode: both;
 }
+
 .popular-events-section,
 .popular-events-section * {
   box-sizing: border-box;
 }
+
 .popular-events-section {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  justify-items: center; 
+  text-align: center;
+  padding: 20px;
 }
+
 .popular-annual-events {
-  color: #afd7e0;
+  color: #AFD7E0; 
   text-align: center;
-  font-family: "Overpass-Bold", sans-serif;
-  font-size: 55px;
+  font-size: 2.5rem;
   font-weight: 700;
-  position: center;
-  left: 205px;
-  top: 0px;
-  width: 615px;
-}
-.group-22 {
-  width: 439.75px;
-  height: 590px;
-  position: static;
+  grid-column: span 2; 
 }
 
-.rectangle-27 {
-  width: 336.79px;
-  height: 350px;
-  position: center;
-  left: 53.62px;
-  top: 166px;
+.card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin-left: 200px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin-right: 200px;
+}
+
+.card img,
+.card2 img {
+  width: 80%;
+  height: 300px;
   object-fit: cover;
-}
-.group-18 {
-  width: 439.75px;
-  height: 141px;
-  position: static;
-}
-.glow-eindhoven {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-Bold", sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  position: center;
-  left: 40px;
-  top: 540px;
-  width: 364px;
-  height: 112px;
-}
-.a-spectacular-light-festival-held-every-november {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-SemiBold", sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  position: center;
-  left: 4px;
-  top: 599px;
-  width: 439.75px;
-}
-.group-28 {
-  width: 444px;
-  height: 596px;
-  position: static;
+  margin-bottom: 20px;
 }
 
-.group-24 {
-  width: 444px;
-  height: 521px;
-  position: static;
-}
-.rectangle-29 {
-  width: 336.79px;
-  height: 350px;
-  position: center;
-  left: 53.62px;
-  top: 755px;
-  object-fit: cover;
-}
-.group-20 {
-  width: 444px;
-  height: 144px;
-  position: static;
-}
-.dutch-design-week {
+.card-title,
+.card2-title {
   color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-Bold", sans-serif;
-  font-size: 48px;
+  font-size: 33px;
   font-weight: 700;
-  position: center;
-  left: 6px;
-  top: 1132px;
-  width: 435px;
-}
-.europe-s-biggest-design-event-in-october {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-SemiBold", sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  position: center;
-  left: 0px;
-  top: 1194px;
-  width: 444px;
-}
-.group-27 {
-  width: 439.75px;
-  height: 631px;
-  position: static;
+  margin: 10px 0;
 }
 
-.group-25 {
-  width: 439.75px;
-  height: 556px;
-  position: static;
-}
-.rectangle-30 {
-  width: 336.79px;
-  height: 350px;
-  position: center;
-  left: 613.65px;
-  top: 755px;
-  object-fit: cover;
-}
-.group-21 {
-  width: 439.75px;
-  height: 179px;
-  position: static;
-}
-.carnival {
+.card-description,
+.card2-description {
   color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-Bold", sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  position: center;
-  left: 687px;
-  top: 1132px;
-  width: 190px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
 }
-.a-colorful-celebration-in-february-with-parades-and-parties {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-SemiBold", sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  position: center;
-  left: 556.88px;
-  top: 1188px;
-  width: 439.75px;
-}
-.group-26 {
-  width: 523px;
-  height: 631px;
-  position: static;
-}
-
-.group-23 {
-  width: 523px;
-  height: 556px;
-  position: static;
-}
-.rectangle-28 {
-  width: 336.79px;
-  height: 350px;
-  position: center;
-  left: 613.65px;
-  top: 166px;
-  object-fit: cover;
-}
-.group-19 {
-  width: 523px;
-  height: 179px;
-  position: static;
-}
-.king-s-day-koningsdag {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-Bold", sans-serif;
-  font-size: 45px;
-  font-weight: 700;
-  position: center;
-  left: 520px;
-  top: 543px;
-  width: 523px;
-}
-.celebrate-the-dutch-king-s-birthday-on-april-27-with-music-markets-and-fun {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Overpass-SemiBold", sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  position: center;
-  left: 539px;
-  top: 599px;
-  width: 486px;
-}
-
 
 @keyframes slide-left {
     from {
@@ -402,7 +269,7 @@ body {
   }
   
   .ov-chipkaart-section h1 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     margin-bottom: 2rem;
     color: #AFD7E0; 
   }
@@ -444,89 +311,15 @@ body {
     color: #9FBCC7; 
   }
 
-  .biking-content {
-    display: flex; 
-    align-items: center; 
-    gap: 20px; 
-    margin-bottom: 20px;
-  }
-  
-  .biking-image {
-    position: center;
-    object-fit: cover;
-    width: 100%;
-    max-width: 987px;
-    height: 300px;
-    margin-bottom: 20px;
-  }
-  
-  .biking-description {
-    justify-content: center;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 10px;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 25px;
-  }
-  
-  .biking-info {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .biking-info > article.options {
-    width: 600px;
-    position: center;
-    align-items: center;
-    text-align: center;
-    flex: 1;
-    padding: 15px;
-    flex-direction: column;
-    margin: 0;
-  }
-  
-  .biking-info h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #cce7ff;
-  }
-  
-  .biking-info ul {
-    width: 600px;
-    margin: 0;
-    padding-left: 20px;
-    list-style-type: disc;
-    font-size: 1rem;
-  }
-  
-  .biking-info li {
-    margin-bottom: 8px;
-    margin-left: 50px;
-    color: #FFFFFF;
-    text-align: left;
-  }
-  
   .financing-grid-container {
     max-width: 800px;
     margin: 30px auto;
     text-align: center;
   }
   
-  .financing-h1 {
-    font-size: 2em;
-    color: #b3d4ff;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
   .grid-table {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1px;
     background-color: #ffffff;
     overflow: hidden;
@@ -553,6 +346,89 @@ body {
   
   .grid-item:nth-child(even) {
     background-color: #183051;
+  }
+
+  .stay-updated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .title2 {
+    color: #afd7e0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1044px;
+    width: 90%;
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .logo2 {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+  }
+
+  .logo3 {
+    max-width: 100%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin: 0;
+  }
+  
+  .subtitle2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .resources2,
+  .resources3 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .resources2 ul,
+  .resources3 ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .resources2 li,
+  .resources3 li{
+    list-style-type: disc;
+    margin-bottom: 5px;
+  }
+  
+  .resources3 li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    list-style-type: none;
+    font-size: 1.9rem;
+    font-weight: 600;
   }
 
   .ns-logo {
@@ -674,7 +550,6 @@ body {
     transform: scale(1.1);
 }
 
-/* Media Query for Mobile Devices */
 @media(max-width: 600px) {
     .menu {
         flex-direction: column;
