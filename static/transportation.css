@@ -160,7 +160,11 @@ body {
 .hero-content p {
     color: #ffffff; 
     font-size: 16px;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
+    animation-name: slide-left;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both; 
 }
 
 .hero-content .btn {
