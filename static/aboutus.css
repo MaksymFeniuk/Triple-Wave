@@ -12,7 +12,6 @@
   z-index: 1;
 }
 
-
 .aboutus-container {
   max-width: 1000px;
   margin: 30px auto;
@@ -63,18 +62,6 @@ h1 {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .aboutus-team-section {
   max-width: 700px;
@@ -146,14 +133,6 @@ h1 {
   }
 }
 
-
-
-
-
-
-
-
-
 .aboutus-why-section {
   max-width: 900px;
   margin: 40px auto;
@@ -212,18 +191,6 @@ h1 {
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .contact-section {
   text-align: center;
