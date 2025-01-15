@@ -203,7 +203,7 @@ body {
     height: 380px;
     object-fit: cover;
     box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;                                                                                                                                                                                                  
 }
 
 .hero-images img:nth-child(1) {
