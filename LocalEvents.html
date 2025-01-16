@@ -19,19 +19,16 @@
 <body>
     <header>
         <nav>
-            <ul class='nav-bar'>
-                <li class='logo'><a href='index.html'><img src='img/logo.png' /></a></li>
-                <input type='checkbox' id='check' />
-                <span class="menu">
+            <menu class='nav-bar'>
+                <li class='logo'><a href='index.html'><img src='img/logo.png' alt="ourlogo"/></a></li>
+                <ul class="menu">
                     <li><a href="HousingPage.html">Housing</a></li>
                     <li><a href="Transportation.html">Transportation</a></li>
                     <li><a href="Financing.html">Financing</a></li>
                     <li><a href="LocalEvents.html">Local Events</a></li>
                     <li><a href="AboutUs.html">About Us</a></li>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
+                </ul>
+              </menu>
         </nav>
     </header>
 
@@ -41,16 +38,15 @@
                 <h1>Local Events in Eindhoven</h1>
                 <p>Eindhoven is a vibrant city with many local events happening throughout the year. From cultural festivals to sports events, there’s something for everyone to enjoy!
                 </p>
-                <div style="text-align: right;">
-               <a href="https://www.example.com" class="btn">Know More</a>
+               <a href="#pop" class="btn">Know More</a>
             </section>
         </article>  
     </section>
 
-    <section class="popular-events-section">
+    <section class="popular-events-section" id="pop">
       <h2 class="popular-annual-events">Popular Annual Events</h2>
       <figure class="card">
-        <img class="rectangle-27" src="img/Trap City.jpeg" alt="Glow Eindhoven" />
+        <img class="rectangle-27" src="img/Trap_City.jpeg" alt="Glow Eindhoven" />
         <article class="card-content">
           <h3 class="card-title">Glow Eindhoven</h3>
           <p class="card-description">
@@ -59,7 +55,7 @@
         </article>
       </figure>
       <figure class="card2">
-        <img class="rectangle-29" src="img/Koningsdag in the Netherlands_ a guide to King's Day.jpeg" alt="King’s Day" />
+        <img class="rectangle-29" src="img/Koningsdag.jpeg" alt="King’s Day" />
         <article class="card-content">
           <h3 class="card-title">King’s Day (Koningsdag)</h3>
           <p class="card-description">
@@ -68,7 +64,7 @@
         </article>
       </figure>
       <figure class="card">
-        <img class="rectangle-30" src="img/Dutch design week.jpeg" alt="Dutch Design Week" />
+        <img class="rectangle-30" src="img/design_week.jpeg" alt="Dutch Design Week" />
         <article class="card-content">
           <h3 class="card-title">Dutch Design Week</h3>
           <p class="card-description">
@@ -150,7 +146,7 @@
       <footer class="footer">
         <article class="footer-top">
             <h1>"Ready To Explore Eindhoven? Check Out Our Guides Now!"</h1>
-            <a href="About Us.html" class="btn-footer">Explore Now ></a>
+            <a href="AboutUs.html" class="btn-footer">Explore Now ></a>
         </article>
         <section class="footer-bottom">
             <ul class="footer-links">
