@@ -343,9 +343,9 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1px;
-  background-color: #ffffff;
+  background-color: #afd7e0;
   overflow: hidden;
-  border: 1px rgb(255, 255, 255) solid;
+  border: 1px #afd7e0 solid;
   margin-left: 300px;
   margin-right: 300px;
 }

@@ -16,22 +16,20 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
-            <ul class='nav-bar'>
-                <li class='logo'><a href='index.html'><img src='img/logo.png' /></a></li>
-                <input type='checkbox' id='check' />
-                <span class="menu">
-                    <li><a href="HousingPage.html">Housing</a></li>
+            <menu class='nav-bar'>
+                <li class='logo'><a href='index.html'><img src='img/logo.png' alt="ourlogo" /></a></li>
+                <ul class="menu">
+                    <li><a href="Housing-page.html">Housing</a></li>
                     <li><a href="Transportation.html">Transportation</a></li>
                     <li><a href="Financing.html">Financing</a></li>
                     <li><a href="LocalEvents.html">Local Events</a></li>
                     <li><a href="AboutUs.html">About Us</a></li>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
+                </ul>
+              </menu>
         </nav>
     </header>
 
@@ -42,13 +40,12 @@
                 <p>Eindhoven offers various transportation options,
                 including buses, trains, and biking. Whether you're a local or a newcomer, getting around the city is easy and convenient.
                 </p>
-                <div style="text-align: right;">
-               <a href="https://www.example.com" class="btn">Know More</a>
+               <a href="#ov" class="btn">Know More</a>
             </section>
         </article>  
     </section>
 
-    <section class="ov-chipkaart-section">
+    <section class="ov-chipkaart-section" id="ov">
         <h1>OV-chipkaart</h1>
         <section class="content-wrapper">
           <img src="img/ov.jpeg" alt="OV-chipkaart Reader" class="ov-image">
@@ -73,7 +70,7 @@
 
       <section class="ov-chipkaart-section">
         <h1>Biking</h1>
-        <img src="img/Copenhagen, Denmark.jpg" alt="Biking in Eindhoven" class="biking-image">
+        <img src="img/Copenhagen_Denmark.jpg" alt="Biking in Eindhoven" class="biking-image">
         <article>
         <p class="biking-description">Biking is the most popular way to get around Eindhoven.</p>
         </article>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home / Triple Wave</title>
+    <title>Triple Wave</title>
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="static/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -15,154 +15,154 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul class='nav-bar'>
-                <li class='logo'><a href='index.html'><img src='img/logo.png' /></a></li>
+            <nav class='nav-bar'>
+                <ul>
+                    <li class='logo'><a href='index.html'><img src='img/logo.png' alt="image" /></a></li>
+                </ul>
                 <input type='checkbox' id='check' />
-                <span class="menu">
-                    <li><a href="HousingPage.html">Housing</a></li>
+                <ul class="menu">
+                    <li><a href="Housing-page.html">Housing</a></li>
                     <li><a href="Transportation.html">Transportation</a></li>
                     <li><a href="Financing.html">Financing</a></li>
-                    <li><a href="LocalEvents.html">Local Events</a></li>
-                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Local-Events.html">Local Events</a></li>
+                    <li><a href="About-Us.html">About Us</a></li>
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
+                </ul>
                 <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
-        </nav>
+            </nav>
     </header>
 
     <section class="hero">
-        <section class="hero-content">
-            <h1>Welcome to the
-                International Students Guide in Eindhoven!</h1>
+        <div class="hero-content">
+            <h2>Welcome to the International Students Guide in Eindhoven!</h2>
             <p>We are here to help you settle into your new life in Eindhoven. Whether you're looking for housing,
                 want
                 to learn how to get around, or discover Dutch culture, let us be your first guide!</p>
-            <a href="AboutUs.html" class="btn">Get to Know Us</a>
-            </section>
-        <section class="hero-images">
+            <a href="About-Us.html" class="btn">Get to Know Us</a>
+        </div>
+        <div class="hero-images">
             <img src="img/pexels-bodi-3361667-5201634.jpg" alt="Eindhoven cityscape">
             <img src="img/pexels-dmitriy-causelove-218646814-13308360.jpg" alt="Eindhoven church">
             <img src="img/pexels-weickmann-12869687.jpg" alt="Students walking in Eindhoven">
-        </section>
+        </div>
     </section>
 
     <section class="offer-section">
         <h2>What We Offer</h2>
-        <section class="offer-container">
-            <article class="offer-card">
-                <figure class="img-card">
+        <div class="offer-container">
+            <div class="offer-card">
+                <div class="img-card">
                     <img src="img/house.png" alt="Housing Icon">
-                </figure>
-                <section class="text-card">
+                </div>
+                <div class="text-card">
                     <h3>Housing:</h3>
                     <p>Find the best housing options tailored to your needs</p>
-                    <a href="Housing page.html" class="btn">Find a House</a>
-                </section>
-            </article>
-            <section class="offer-card">
-                <figure class="img-card2">
+                    <a href="Housing-page.html" class="btn">Find a House</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="img-card2">
                     <img src="img/public-transport.png" alt="Transportation Icon">
-                </figure>
-                <section class="text-card2">
+                </div>
+                <div class="text-card2">
                     <h3>Transportation:</h3>
                     <p>Discover how to get around Eindhoven easily</p>
                     <a href="Transportation.html" class="btn">Discover</a>
-                </section>
-            </section>
-            <article class="offer-card">
-                <figure class="img-card">
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="img-card">
                     <img src="img/budget.png" alt="Financing Icon">
-                </figure>
-                <section class="text-card">
+                </div>
+                <div class="text-card">
                     <h3>Financing:</h3>
                     <p>Learn about student financing and managing your budget</p>
                     <a href="Financing.html" class="btn">Learn More</a>
-                </section>
-            </article>
-            <article class="offer-card">
-                <figure class="img-card2">
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="img-card2">
                     <img src="img/red-carpet.png" alt="Local Events Icon">
-                </figure>
-                <section class="text-card2">
+                </div>
+                <div class="text-card2">
                     <h3>Local Events:</h3>
                     <p>Stay updated on events and activities happening near you</p>
-                    <a href="LocalEvents.html" class="btn">More Events</a>
-                </section>
-            </article>
-        </section>
+                    <a href="Local-Events.html" class="btn">More Events</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="quick-facts-section">
         <h2>Quick Facts</h2>
-        <article class="quick-card-container">
-            <section class="quick-text-card">
+        <div class="quick-card-container">
+            <div class="quick-text-card">
                 <h3>Students Helped<br>With Housing</h3>
-                <section class="number-js">
-                    <article id="counter" data-target="1000">0</article>
+                <div class="number-js">
+                    <div id="counter" data-target="1000">0</div>
                     <h2>+</h2>
-                </section>
-            </section>
-            <section class="quick-text-card">
+                </div>
+            </div>
+            <div class="quick-text-card">
                 <h3>average student<br>housing cost</h3>
-                <article class="number-js">
-                    <section id="counter1" data-target="800">0</section>
+                <div class="number-js">
+                    <div id="counter1" data-target="800">0</div>
                     <h2>€</h2>
-                </article>
-            </section>
-            <section class="quick-text-card">
+                </div>
+            </div>
+            <div class="quick-text-card">
                 <h3>local events<br>listed monthly</h3>
-                <article class="number-js">
-                    <section id="counter2" data-target="15">0</section>
+                <div class="number-js">
+                    <div id="counter2" data-target="15">0</div>
                     <h2>+</h2>
-                </article>
-            </section>
-        </article>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="benefited-section">
         <h2>Students benefited from Our site</h2>
-        <section class="benefited-container">
-            <figure class="benefited-card">
+        <div class="benefited-container">
+            <div class="benefited-card">
                 <img src="img/user.png" alt="user icon">
                 <h3>"This website made my move to Eindhoven stress-free!" - Maria, TU/e Student.</h3>
-            </figure>
-            <figure class="benefited-card">
+            </div>
+            <div class="benefited-card">
                 <img src="img/user.png" alt="user icon">
                 <h3>"I found the perfect housing option within days!" - Ahmed, Fontys Student.</h3>
-            </figure>
-            <figure class="benefited-card">
+            </div>
+            <div class="benefited-card">
                 <img src="img/user.png" alt="user icon">
                 <h3>""Their guide to Dutch culture was a lifesaver!" - Sophie, Exchange Student.</h3>
-            </figure>
-        </section>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
-        <article class="footer-top">
+        <div class="footer-top">
             <h1>"Ready To Explore Eindhoven? Check Out Our Guides Now!"</h1>
-            <a href="Housing page.html" class="btn-footer">Explore Now ></a>
-        </article>
-        <section class="footer-bottom">
+            <a href="Housing-page.html" class="btn-footer">Explore Now ></a>
+        </div>
+        <div class="footer-bottom">
             <ul class="footer-links">
                 <li><a href="index.html" class="text1">Home</a></li>
-                <li><a href="HousingPage.html" class="text1">Housing</a></li>
+                <li><a href="Housing-page.html" class="text1">Housing</a></li>
                 <li><a href="Transportation.html" class="text2">Transportation</a></li>
                 <li><a href="Financing.html" class="text1">Financing</a></li>
-                <li><a href="LocalEvents.html" class="text2">Local Events</a></li>
-                <li><a href="AboutUs.html" class="text1">About Us</a></li>
+                <li><a href="Local-Events.html" class="text2">Local Events</a></li>
+                <li><a href="About-Us.html" class="text1">About Us</a></li>
             </ul>
-            <figure class="footer-social">
+            <div class="footer-social">
                 <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
                 <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
-            </figure>
-        </section>
+            </div>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>

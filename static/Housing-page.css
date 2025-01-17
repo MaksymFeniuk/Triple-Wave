@@ -14,32 +14,40 @@ body {
     --background-color: #002B4F;
 }
 
+header {
+    background-color: rgba(21, 91, 134, 0.75);
+    padding: 0 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    animation-name: header;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 500ms;
+}
+
 @keyframes header {
     0% {
-        translate: 0 -60px;
+        transform: translateY(-60px);
     }
 
     100% {
-        translate: 0 0;
+        transform: translateY(0);
     }
 }
 
 .nav-bar {
     width: 100%;
     display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    background-color: rgba(21, 91, 134, 0.75);
+    position: relative;
     padding: 12px 20px;
-    animation-name: header;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-delay: 500ms;
-    z-index: 10;
+}
+
+.nav-bar>ul {
+    list-style: none;
 }
 
 .logo img {
@@ -48,6 +56,7 @@ body {
 
 .menu {
     display: flex;
+    list-style: none;
 }
 
 .menu li {
@@ -103,6 +112,7 @@ body {
     top: 20px;
     right: 20px;
 }
+
 #check {
     display: none;
 }
@@ -111,7 +121,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5rem 0;
+    padding: 6rem 0;
     overflow: hidden;
 }
 
@@ -122,10 +132,10 @@ body {
     left: 0;
     width: 100%;
     height: 640px;
-    background-image: url("/img/pexels-mthan-10969375.jpg");
+    background-image: url("img/pexels-mthan-10969375.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.4;
     z-index: 1;
 }
 
@@ -136,33 +146,10 @@ body {
     margin-left: 75px;
 }
 
-.hero-content h1 {
+.hero-content h2 {
     font-size: 45px;
     margin-bottom: 1.1rem;
     color: #AFD7E0;
-    animation-name: slide-left;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-fill-mode: both;
-}
-
-@keyframes slide-left {
-    from {
-        translate: -550px 0;
-    }
-
-    to {
-        translate: 0 0;
-    }
-}
-.hero-content p {
-    font-size: 16px;
-    margin-bottom: 2rem;
-    color: #ffffff;
-    animation-name: slide-left;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
-    animation-fill-mode: both;
 }
 
 .hero-content {
@@ -172,23 +159,6 @@ body {
     margin-top: 150px;
 }
 
-.hero-content .btn {
-    background-color: #AFD7E0;
-    color: #002B4F;
-    float: right;
-    padding: 0.8rem 1rem;
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.hero-content .btn:hover {
-    background-color: #003366;
-    color: #ffffff;
-}
-
 .safe-rooms-section {
     background-color: #002B4F;
     padding: 3rem 0;
@@ -196,22 +166,13 @@ body {
     margin-top: 2rem;
 }
 
-.safe-rooms-section h1 {
+.safe-rooms-section h2 {
     font-size: 2rem;
     color: #AFD7E0;
     font-weight: bold;
     margin-bottom: 2.5rem;
 }
-.btn {
-    display: inline-block;
-    padding: 5px 20px;
-    color: rgb(0, 0, 0); 
-    text-decoration: none; 
-    font-size: 16px; 
-    transition: background-color 0.3s ease; 
-    text-decoration: underline; 
-  }
-  
+
 .cards-container {
     display: flex;
     justify-content: center;
@@ -276,7 +237,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.section-header h1 {
+.section-header h2 {
     font-size: 2rem;
     color: #AFD7E0;
     margin-bottom: 0.5rem;
@@ -321,7 +282,7 @@ body {
 
 .image-grid0 img {
     width: 700px;
-    height: 350px;
+    height: 200px;
     margin: 0;
     padding: 0;
     object-fit: cover;
@@ -384,7 +345,7 @@ body {
     margin-bottom: 3rem;
 }
 
-.avoid-scams-section h1 {
+.avoid-scams-section h2 {
     font-size: 2rem;
     color: #AFD7E0;
     margin-bottom: 2rem;
@@ -440,7 +401,6 @@ body {
 
 .footer-top h1 {
     text-align: left;
-    font-size: 35px;
 }
 
 .btn-footer {
@@ -474,9 +434,11 @@ body {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     gap: 10px;
     padding: 0;
     margin: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .footer-links li a {
@@ -525,72 +487,6 @@ body {
     }
 
     .menu li {
-        margin-top: 30px;
-    }
-
-    .menu li a {
-        padding: 10px;
-    }
-
-    .open-menu,
-    .close-menu {
-        display: block;
-    }
-
-    #check:checked~.menu {
-        right: 0;
-    }
-    .footer-top {
-        flex-direction: column;
-        margin-right: 0;
-        margin-left: 0;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .footer-top h1 {
-        font-size: 25px;
-    }
-
-    .btn-footer {
-        font-size: 20px;
-        padding: 0.5rem 0.6rem;
-        align-self: flex-end;
-    }
-
-    .footer-bottom {
-        flex-direction: column;
-        margin-left: 0;
-        gap: 25px;
-    }
-
-    .footer-social {
-        align-self: flex-end;
-    }
-
-    .footer-links {
-        align-self: center;
-    }
-
-}
-
-/* Media Query for Tablet Devices */
-@media (min-width: 601px) and (max-width: 900px) {
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: var(--color4);
-        transition: all 0.5s ease;
-    }
-
-    .menu li {
         margin-top: 40px;
     }
 
@@ -606,75 +502,4 @@ body {
     #check:checked~.menu {
         right: 0;
     }
-
-    .hero-content {
-        margin-left: 20px;
-        padding: 0 0;
-    }
-
-    .hero-content h1 {
-        font-size: 35px;
-    }
-
-    .hero-content p {
-        font-size: 14px;
-    }
-
-    .hero-images img {
-        width: 100px;
-    }
-
-    .offer-card img {
-        width: 150px;
-    }
-
-    .offer-container {
-        padding: 0 30px;
-    }
-
-    .img-card,
-    .text-card2 {
-        margin: 0 0;
-    }
-
-    .text-card .btn,
-    .text-card2 .btn {
-        margin: 0 0;
-        width: 80%;
-        align-self: flex-end;
-    }
-
-    .text-card .btn {
-        font-size: 14px;
-    }
-
-    .quick-card-container h3 {
-        font-size: 20px;
-    }
-
-    .benefited-card {
-        width: 80%;
-
-    }
-
-    .quick-card-container h2,
-    #counter2 {
-        font-size: 30px;
-    }
-
-    .quick-card-container {
-        gap: 70px;
-    }
-
-    .footer-top h1 {
-        font-size: 30px;
-        width: 60%;
-    }
-
-    .btn-footer {
-        font-size: 22px;
-        padding: 0.5rem 1rem;
-    }
-
-
 }

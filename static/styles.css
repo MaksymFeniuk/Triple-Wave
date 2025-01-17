@@ -16,23 +16,21 @@ body {
 
 @keyframes header {
     0% {
-        translate: 0 -60px;
+        transform: translateY(-60px);
     }
 
     100% {
-        translate: 0 0;
+        transform: translateY(0);
     }
 }
 
 .nav-bar {
     width: 100%;
     display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    position: relative;
     background-color: rgba(21, 91, 134, 0.75);
     padding: 12px 20px;
     animation-name: header;
@@ -42,12 +40,17 @@ body {
     z-index: 10;
 }
 
+.nav-bar>ul {
+    list-style: none;
+}
+
 .logo img {
     width: 40px;
 }
 
 .menu {
     display: flex;
+    list-style: none;
 }
 
 .menu li {
@@ -111,7 +114,6 @@ body {
 
 .hero {
     display: flex;
-    margin-bottom: 40px;
     justify-content: space-between;
     align-items: center;
     padding: 6rem 0;
@@ -125,7 +127,7 @@ body {
     left: 0;
     width: 100%;
     height: 640px;
-    background-image: url("/img/international-student-navigator-australia-e8IU0GSw3ag-unsplash.jpg");
+    background-image: url("img/international-student-navigator-australia-e8IU0GSw3ag-unsplash.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.3;
@@ -141,7 +143,7 @@ body {
     margin-left: 75px;
 }
 
-.hero-content h1 {
+.hero-content h2 {
     font-size: 45px;
     margin-bottom: 1.1rem;
     color: #AFD7E0;
@@ -153,11 +155,11 @@ body {
 
 @keyframes slide-left {
     from {
-        translate: -550px 0;
+        transform: translateX(-550px);
     }
 
     to {
-        translate: 0 0;
+        transform: translateX(0);
     }
 }
 
@@ -206,7 +208,7 @@ body {
     height: 380px;
     object-fit: cover;
     box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;                                                                                                                                                                                                  
+    transition: transform 0.3s ease;
 }
 
 .hero-images img:nth-child(1) {
@@ -461,6 +463,7 @@ body {
 .benefited-card:hover {
     transform: translateX(10px);
 }
+
 
 .footer {
     background-color: #AFD7E0;
