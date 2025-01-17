@@ -4,144 +4,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Wave</title>
     <link rel="icon" type="image/x-icon" href="img/logo.png">
-    <link rel="stylesheet" href="Housing-page.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <title>Housing</title>
+
 </head>
 
 <body>
     <header>
-        <nav class='nav-bar'>
-            <ul>
-                <li class='logo'><a href='index.html'><img src='img/logo.png' alt="image" /></a></li>
-            </ul>
-            <input type='checkbox' id='check' />
-            <ul class="menu">
-                <li><a href="Housing-page.html">Housing</a></li>
-                <li><a href="Transportation.html">Transportation</a></li>
-                <li><a href="Financing.html">Financing</a></li>
-                <li><a href="Local-Events.html">Local Events</a></li>
-                <li><a href="About-Us.html">About Us</a></li>
-                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-            </ul>
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </nav>
+            <nav class='nav-bar'>
+                <ul>
+                    <li class='logo'><a href='index.html'><img src='img/logo.png' alt="image" /></a></li>
+                </ul>
+                <input type='checkbox' id='check' />
+                <ul class="menu">
+                    <li><a href="Housing-page.html">Housing</a></li>
+                    <li><a href="Transportation.html">Transportation</a></li>
+                    <li><a href="Financing.html">Financing</a></li>
+                    <li><a href="Local-Events.html">Local Events</a></li>
+                    <li><a href="About-Us.html">About Us</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </ul>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </nav>
     </header>
 
     <section class="hero">
-        <div class="hero">
-            <div class="hero-content">
-                <h2>Find Your Home In Eindhoven</h2>
-                <p>Your Guide To Safe, Affordable Housing In The Netherlands...</p>
+        <div class="hero-content">
+            <h2>Welcome to the International Students Guide in Eindhoven!</h2>
+            <p>We are here to help you settle into your new life in Eindhoven. Whether you're looking for housing,
+                want
+                to learn how to get around, or discover Dutch culture, let us be your first guide!</p>
+            <a href="About-Us.html" class="btn">Get to Know Us</a>
+        </div>
+        <div class="hero-images">
+            <img src="img/pexels-bodi-3361667-5201634.jpg" alt="Eindhoven cityscape">
+            <img src="img/pexels-dmitriy-causelove-218646814-13308360.jpg" alt="Eindhoven church">
+            <img src="img/pexels-weickmann-12869687.jpg" alt="Students walking in Eindhoven">
+        </div>
+    </section>
+
+    <section class="offer-section">
+        <h2>What We Offer</h2>
+        <div class="offer-container">
+            <div class="offer-card">
+                <div class="img-card">
+                    <img src="img/house.png" alt="Housing Icon">
+                </div>
+                <div class="text-card">
+                    <h3>Housing:</h3>
+                    <p>Find the best housing options tailored to your needs</p>
+                    <a href="Housing-page.html" class="btn">Find a House</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="img-card2">
+                    <img src="img/public-transport.png" alt="Transportation Icon">
+                </div>
+                <div class="text-card2">
+                    <h3>Transportation:</h3>
+                    <p>Discover how to get around Eindhoven easily</p>
+                    <a href="Transportation.html" class="btn">Discover</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="img-card">
+                    <img src="img/budget.png" alt="Financing Icon">
+                </div>
+                <div class="text-card">
+                    <h3>Financing:</h3>
+                    <p>Learn about student financing and managing your budget</p>
+                    <a href="Financing.html" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="img-card2">
+                    <img src="img/red-carpet.png" alt="Local Events Icon">
+                </div>
+                <div class="text-card2">
+                    <h3>Local Events:</h3>
+                    <p>Stay updated on events and activities happening near you</p>
+                    <a href="Local-Events.html" class="btn">More Events</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="safe-rooms-section">
-        <h2>WEBSITES TO FIND SAFE ROOMS</h2>
-        <div class="cards-container">
-            <div class="card">
-                <div class="card-logo">
-                    <img src="img/Kamernet.png" alt="Kamernet Logo">
-                </div>
-                <div class="card-text">
-                    <p>Listings For Rooms, Studios, And Apartments. Search Filters By Price, Location, And Type Of
-                        Accommodation. User Reviews And Ratings For Landlords.</p>
+    <section class="quick-facts-section">
+        <h2>Quick Facts</h2>
+        <div class="quick-card-container">
+            <div class="quick-text-card">
+                <h3>Students Helped<br>With Housing</h3>
+                <div class="number-js">
+                    <div id="counter" data-target="1000">0</div>
+                    <h2>+</h2>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="card-logo">
-                    <img src="img/Housing-anywhere.png" alt="HousingAnywhere Logo">
-                </div>
-                <div class="card-text">
-                    <p>Secure Rental Payments And Protection. Verified Listings To Avoid Scams.<br>Direct Communication
-                        With Landlords Or Flatmates.</p>
+            <div class="quick-text-card">
+                <h3>average student<br>housing cost</h3>
+                <div class="number-js">
+                    <div id="counter1" data-target="800">0</div>
+                    <h2>€</h2>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-logo">
-                    <img src="img/pararius.png" alt="Pararius Logo">
-                </div>
-                <div class="card-text">
-                    <p>Extensive Listings For Furnished And Unfurnished Apartments. Multiple Property Filters For Easy
-                        Search. Transparent Pricing And Detailed Property Descriptions.</p>
+            <div class="quick-text-card">
+                <h3>local events<br>listed monthly</h3>
+                <div class="number-js">
+                    <div id="counter2" data-target="15">0</div>
+                    <h2>+</h2>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="university-rooms-section">
-        <div class="section-header">
-            <img src="img/school.png" alt="University Icon" class="header-icon">
-            <h2>UNIVERSITY ROOMS</h2>
-            <h2>OPTIONS</h2>
-        </div>
-        <div class="image-all">
-            <div class="image-grid0">
-                <img src="img/Student-housing1.webp" alt="Campus View">
+    <section class="benefited-section">
+        <h2>Students benefited from Our site</h2>
+        <div class="benefited-container">
+            <div class="benefited-card">
+                <img src="img/user.png" alt="user icon">
+                <h3>"This website made my move to Eindhoven stress-free!" - Maria, TU/e Student.</h3>
             </div>
-
-            <div class="image-grid">
-                <img src="img/Room2.avif" alt="Room Interior 1">
-                <img src="img/room3.jpg" alt="Room Interior 2">
+            <div class="benefited-card">
+                <img src="img/user.png" alt="user icon">
+                <h3>"I found the perfect housing option within days!" - Ahmed, Fontys Student.</h3>
             </div>
-        </div>
-        <div class="icon-row">
-            <img src="img/bed.png" alt="Transportation Icon">
-            <img src="img/wi-fi-icon.png" alt="Wi-Fi Icon">
-            <img src="img/public-toilet.png" alt="Laundry Icon">
-            <img src="img/cyber-security.png" alt="security">
-            <img src="img/home.png" alt="Housing Icon">
-        </div>
-
-        <div class="things-to-keep-in-mind">
-            <h3>THINGS TO KEEP IN MIND</h3>
-            <p><strong>Time Limit:</strong> University housing is usually available for one academic year. Start
-                planning for your next accommodation early.</p>
-            <ul>
-                <li><strong>Cost:</strong> It might be a bit more expensive than private rentals, but it’s worth it for
-                    the convenience and security.</li>
-                <li><strong>Living with Others:</strong> You’ll share spaces with students from different cultures. It’s
-                    a great way to make friends, but be open to adapting!</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="avoid-scams-section">
-        <h2>How To Avoid Scams</h2>
-        <div class="tips-container">
-            <div class="tip-card">
-                <p>Never Send Money Before Viewing The Property.</p>
-            </div>
-            <div class="tip-card">
-                <p>Research Reviews Of Landlords And Platforms.</p>
-            </div>
-            <div class="tip-card">
-                <p>Avoid Listings With Prices That Seem Too Good To Be True.</p>
+            <div class="benefited-card">
+                <img src="img/user.png" alt="user icon">
+                <h3>""Their guide to Dutch culture was a lifesaver!" - Sophie, Exchange Student.</h3>
             </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="footer-top">
-            <h1>"Ready To Explore Eindhoven? Check<br>Out Our Guides Now!"</h1>
+            <h1>"Ready To Explore Eindhoven? Check Out Our Guides Now!"</h1>
             <a href="Housing-page.html" class="btn-footer">Explore Now ></a>
         </div>
         <div class="footer-bottom">
             <ul class="footer-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Housing-page.html">Housing</a></li>
-                <li><a href="Transportation.html">Transportation</a></li>
-                <li><a href="Financing.html">Financing</a></li>
-                <li><a href="Local-Events.html">Local Events</a></li>
-                <li><a href="About-Us.html">About Us</a></li>
+                <li><a href="index.html" class="text1">Home</a></li>
+                <li><a href="Housing-page.html" class="text1">Housing</a></li>
+                <li><a href="Transportation.html" class="text2">Transportation</a></li>
+                <li><a href="Financing.html" class="text1">Financing</a></li>
+                <li><a href="Local-Events.html" class="text2">Local Events</a></li>
+                <li><a href="About-Us.html" class="text1">About Us</a></li>
             </ul>
             <div class="footer-social">
                 <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
@@ -151,6 +165,7 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
